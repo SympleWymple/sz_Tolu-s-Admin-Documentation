@@ -82,5 +82,5 @@ Others --> Returns everyone in the server but yourself.
   
   *Disallowed Aliases*: [All, Random, Me, Others]
   
-  📎Example: :pm all
+  📎Example: :cmds all
   ```
