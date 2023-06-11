@@ -11,6 +11,7 @@
 If you get stuck, feel free to ask for assistance by contacting me on discord: Symple#1231
 
 ## Commands:
+Prefix is ":"
 ### Aliases:
 Me --> Returns yourself
 
@@ -137,7 +138,7 @@ Others --> Returns everyone in the server but yourself.
   ```markdown
   Prefix | Command | Aliases/Player Name | Reason
   
-  *Disallowed Aliases*: [All, Others, Random]
+  *Disallowed Aliases*: [All, Others, Random, Me]
   
   📎Example: :ban sz_Tolu banning you from the game for ever
   ```
@@ -173,7 +174,7 @@ Others --> Returns everyone in the server but yourself.
   
   📎Example: :m Hello everyone
   ```
-   20. M --> Make a player fly
+   20. Fly --> Make a player fly
   ```markdown
   Prefix | Command | Aliases/Player Name
   
