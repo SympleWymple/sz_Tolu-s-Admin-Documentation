@@ -264,18 +264,18 @@ Others --> Returns everyone in the server but yourself.
 ---
 
 ### 🔍 Safe Chat Command (Age) ###
-  This command is very intesting beacuse you have script it by requesting the the user to say the words like this
+  This command is very interesting beacuse you have script it by requesting the the user to say the words like this
   ```lua
 function API.Players.getPlayerInfo(Player: Player): {number | string}
-	local age = "false"
-	local safeChat = "true"
-	if API.Players.getPlayerByName(Player.Name) ~= nil then
-		age = Player.AccountAge
-		local filterResult = TextService:FilterStringAsync('C7RN', Player.UserId)
-		if filterResult:GetChatForUserAsync(Player.UserId) == 'C7RN' then
-			safeChat = "false"
-		end
-	end
-	return {age, safeChat}
+     local age = "false"
+     local safeChat = "true"
+     if API.Players.getPlayerByName(Player.Name) ~= nil then
+	age = Player.AccountAge
+	local filterResult = TextService:FilterStringAsync('C7RN', Player.UserId)
+       if filterResult:GetChatForUserAsync(Player.UserId) == 'C7RN' then
+          afeChat = "false"
+       end
+   end
+   return {age, safeChat}
 end
 ```
