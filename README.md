@@ -220,7 +220,7 @@ Others --> Returns everyone in the server but yourself.
   
   📎Example: :music 473754388943 true
   ```
-  26. Stop any currently playing music in the sever
+  26. Stop --> Stop any currently playing music in the sever
   ```markdown
   Prefix | Command | Music ID |
   
@@ -228,7 +228,7 @@ Others --> Returns everyone in the server but yourself.
   
   📎Example: :stop 473754388943 
   ```
-  27. Recieve Building tools
+  27. Btools --> Recieve Building tools
   ```markdown
   Prefix | Command |
   
@@ -236,7 +236,7 @@ Others --> Returns everyone in the server but yourself.
   
   📎Example: :btools 
   ```
-  28. Rope Attach to another player
+  28. Rope --> Attach to another player
   ```markdown
   Prefix | Command | Player Names
   
@@ -244,7 +244,7 @@ Others --> Returns everyone in the server but yourself.
   
   📎Example: :rope sz_Tolu 
   ```
-  29. Unrope Unrope yourself from another player
+  29. Unrope --> Unrope yourself from another player
   ```markdown
   Prefix | Command |
   
@@ -252,3 +252,29 @@ Others --> Returns everyone in the server but yourself.
   
   📎Example: :unrope 
   ```
+  30. Team --> Change a players team
+  ```markdown
+  Prefix | Command | Aliases/Player Name | Team Name
+  
+  *Disallowed Aliases*: []
+  
+  📎Example: :team me Guest
+  ```
+---
+
+### 🔍 Safe Chat Command (Age) ###
+  This command is very intesting beacuse you have script it by requesting the the user to say the words like this
+  ```lua
+function API.Players.getPlayerInfo(Player: Player): {number | string}
+	local age = "false"
+	local safeChat = "true"
+	if API.Players.getPlayerByName(Player.Name) ~= nil then
+		age = Player.AccountAge
+		local filterResult = TextService:FilterStringAsync('C7RN', Player.UserId)
+		if filterResult:GetChatForUserAsync(Player.UserId) == 'C7RN' then
+			safeChat = "false"
+		end
+	end
+	return {age, safeChat}
+end
+```
