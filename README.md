@@ -70,7 +70,7 @@ Others --> Returns everyone in the server but yourself.
   ```
    7. Pm --> Private message someone
   ```markdown
-  Prefix | Command | Aliases/Player Name
+  Prefix | Command | Aliases/Player Name | Message
   
   *Disallowed Aliases*: []
   
@@ -82,5 +82,5 @@ Others --> Returns everyone in the server but yourself.
   
   *Disallowed Aliases*: [All, Random, Me, Others]
   
-  📎Example: :cmds all
+  📎Example: :cmds
   ```
