@@ -84,3 +84,171 @@ Others --> Returns everyone in the server but yourself.
   
   📎Example: :cmds
   ```
+  9. Joinlogs --> Check when people joined the server
+  ```markdown
+  Prefix | Command | 
+  
+  *Disallowed Aliases*: [All, Random, Me, Others]
+  
+  📎Example: :joinlogs
+  ```
+  10. Cmdlogs --> Check the commands which have been executed by players
+  ```markdown
+  Prefix | Command | 
+  
+  *Disallowed Aliases*: [All, Random, Me, Others]
+  
+  📎Example: :cmdlogs
+  ```
+  11. Kill --> Kill a player instantly
+  ```markdown
+  Prefix | Command | Aliases/Player Name
+  
+  *Disallowed Aliases*: [ ]
+  
+  📎Example: :kill others
+  ```
+  12. View --> Watch a player who is the same or lower admin rank as you
+  ```markdown
+  Prefix | Command | Aliases/Player Name
+  
+  *Disallowed Aliases*: [All, Others]
+  
+  📎Example: :view sz_Tolu
+  ```
+  13. Unview --> Unwatch a player who is the same or lower admin rank as you
+  ```markdown
+  Prefix | Command | Aliases/Player Name
+  
+  *Disallowed Aliases*: [All, Others, Random]
+  
+  📎Example: :unview sz_Tolu
+  ```
+  14. Kick --> Kick a player from the server
+  ```markdown
+  Prefix | Command | Aliases/Player Name | Reason
+  
+  *Disallowed Aliases*: [All, Others, Random]
+  
+  📎Example: :kick sz_Tolu kicking you from the server
+  ```
+  15. Ban --> Ban a player from the game
+  ```markdown
+  Prefix | Command | Aliases/Player Name | Reason
+  
+  *Disallowed Aliases*: [All, Others, Random]
+  
+  📎Example: :ban sz_Tolu banning you from the game for ever
+  ```
+  16. Unban --> Unban a player using their Roblox ID
+  ```markdown
+  Prefix | Command | User ID |
+  
+  *Disallowed Aliases*: [All, Others, Random, Me]
+  
+  📎Example: :unban 3301779507
+  ```
+  17. CD --> Count Down from a number to 0
+  ```markdown
+  Prefix | Command | Number |
+  
+  *Disallowed Aliases*: [All, Others, Random, Me]
+  
+  📎Example: :cd 30
+  ```
+  18. Slock --> Lock the server so no-one can join
+  ```markdown
+  Prefix | Command | 
+  
+  *Disallowed Aliases*: [All, Others, Random, Me]
+  
+  📎Example: :slock
+  ```
+  19. M --> Send a message to the server (everyone can see it)
+  ```markdown
+  Prefix | Command | Message
+  
+  *Disallowed Aliases*: [All, Others, Random, Me]
+  
+  📎Example: :m Hello everyone
+  ```
+   20. M --> Make a player fly
+  ```markdown
+  Prefix | Command | Aliases/Player Name
+  
+  *Disallowed Aliases*: [ ]
+  
+  📎Example: :fly all
+  ```
+  21. Unfly --> Removes a player's ability to fly
+  ```markdown
+  Prefix | Command | Aliases/Player Name
+  
+  *Disallowed Aliases*: [ ]
+  
+  📎Example: :unfly random
+  ```
+  22. Age --> Check a players account age and if they have safechat
+  ```markdown
+  Prefix | Command | Aliases/Player Name
+  
+  *Disallowed Aliases*: [All, Others, Random]
+  
+  📎Example: :age sz_Tolu
+  ```
+  23. Admins --> Get a list of all types of admins in the game from creator to moderator
+  ```markdown
+  Prefix | Command |
+  
+  *Disallowed Aliases*: [All, Others, Random, Me]
+  
+  📎Example: :admins
+  ```
+  24. Ref --> Refresh your character
+  ```markdown
+  Prefix | Command | Me/Your User Name
+  
+  *Disallowed Aliases*: [All, Others, Random]
+  
+  📎Example: :ref me
+  ```
+  25. Music --> Play any music in roblox
+  ```markdown
+  Prefix | Command | Music ID | loop?
+  
+  *Disallowed Aliases*: [All, Others, Random, Me]
+  
+  📎Example: :music 473754388943 true
+  ```
+  26. Stop any currently playing music in the sever
+  ```markdown
+  Prefix | Command | Music ID |
+  
+  *Disallowed Aliases*: [All, Others, Random, Me]
+  
+  📎Example: :stop 473754388943 
+  ```
+  27. Recieve Building tools
+  ```markdown
+  Prefix | Command |
+  
+  *Disallowed Aliases*: [All, Others, Random, Me]
+  
+  📎Example: :btools 
+  ```
+  28. Rope Attach to another player
+  ```markdown
+  Prefix | Command | Player Names
+  
+  *Disallowed Aliases*: [All, Others, Me]
+  
+  📎Example: :rope sz_Tolu 
+  ```
+  29. Unrope Unrope yourself from another player
+  ```markdown
+  Prefix | Command |
+  
+  *Disallowed Aliases*: [All, Others, Me, Random]
+  
+  📎Example: :unrope 
+  ```
