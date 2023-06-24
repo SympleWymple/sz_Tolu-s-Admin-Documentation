@@ -254,13 +254,13 @@ Others --> Returns everyone in the server but yourself.
   
   📎Example: :unrope 
   ```
-  30. Team --> Change a players team
+  30. SBan --> Ban a player from the server
   ```markdown
-  Prefix | Command | Aliases/Player Name | Team Name
+  Prefix | Command | Aliases/Player Name | Reason
   
-  *Disallowed Aliases*: []
+  *Disallowed Aliases*: [All, Others, Random, Me]
   
-  📎Example: :team me Guest
+  📎Example: :sban sz for being annoying in this sevrer
   ```
 ---
 
